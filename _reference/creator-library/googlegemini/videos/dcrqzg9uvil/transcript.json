@@ -1,0 +1,1076 @@
+[
+  {
+    "id": "w0",
+    "text": "If",
+    "start": 0,
+    "end": 0.16
+  },
+  {
+    "id": "w1",
+    "text": "you",
+    "start": 0.16,
+    "end": 0.24
+  },
+  {
+    "id": "w2",
+    "text": "got",
+    "start": 0.32,
+    "end": 0.4
+  },
+  {
+    "id": "w3",
+    "text": "the",
+    "start": 0.4,
+    "end": 0.48
+  },
+  {
+    "id": "w4",
+    "text": "study",
+    "start": 0.48,
+    "end": 0.8
+  },
+  {
+    "id": "w5",
+    "text": "scary",
+    "start": 0.8,
+    "end": 1.12
+  },
+  {
+    "id": "w6",
+    "text": "to",
+    "start": 1.2,
+    "end": 1.28
+  },
+  {
+    "id": "w7",
+    "text": "our",
+    "start": 1.36,
+    "end": 1.44
+  },
+  {
+    "id": "w8",
+    "text": "next",
+    "start": 1.52,
+    "end": 1.76
+  },
+  {
+    "id": "w9",
+    "text": "semester,",
+    "start": 1.76,
+    "end": 2.32
+  },
+  {
+    "id": "w10",
+    "text": "here",
+    "start": 2.32,
+    "end": 2.4
+  },
+  {
+    "id": "w11",
+    "text": "are",
+    "start": 2.48,
+    "end": 2.56
+  },
+  {
+    "id": "w12",
+    "text": "four",
+    "start": 2.64,
+    "end": 2.88
+  },
+  {
+    "id": "w13",
+    "text": "things",
+    "start": 2.88,
+    "end": 3.12
+  },
+  {
+    "id": "w14",
+    "text": "I",
+    "start": 3.12,
+    "end": 3.28
+  },
+  {
+    "id": "w15",
+    "text": "swear",
+    "start": 3.28,
+    "end": 3.6
+  },
+  {
+    "id": "w16",
+    "text": "by",
+    "start": 3.6,
+    "end": 3.84
+  },
+  {
+    "id": "w17",
+    "text": "to",
+    "start": 3.84,
+    "end": 4
+  },
+  {
+    "id": "w18",
+    "text": "make",
+    "start": 4,
+    "end": 4.16
+  },
+  {
+    "id": "w19",
+    "text": "college",
+    "start": 4.16,
+    "end": 4.48
+  },
+  {
+    "id": "w20",
+    "text": "feel",
+    "start": 4.48,
+    "end": 4.72
+  },
+  {
+    "id": "w21",
+    "text": "more",
+    "start": 4.72,
+    "end": 4.88
+  },
+  {
+    "id": "w22",
+    "text": "manageable.",
+    "start": 4.88,
+    "end": 5.36
+  },
+  {
+    "id": "w23",
+    "text": "First,",
+    "start": 5.36,
+    "end": 5.68
+  },
+  {
+    "id": "w24",
+    "text": "the",
+    "start": 5.68,
+    "end": 5.76
+  },
+  {
+    "id": "w25",
+    "text": "in-app",
+    "start": 5.76,
+    "end": 6.16
+  },
+  {
+    "id": "w26",
+    "text": "student",
+    "start": 6.32,
+    "end": 6.56
+  },
+  {
+    "id": "w27",
+    "text": "hub.",
+    "start": 6.56,
+    "end": 6.96
+  },
+  {
+    "id": "w28",
+    "text": "It",
+    "start": 6.96,
+    "end": 7.12
+  },
+  {
+    "id": "w29",
+    "text": "organizes",
+    "start": 7.12,
+    "end": 7.52
+  },
+  {
+    "id": "w30",
+    "text": "all",
+    "start": 7.52,
+    "end": 7.68
+  },
+  {
+    "id": "w31",
+    "text": "my",
+    "start": 7.68,
+    "end": 7.84
+  },
+  {
+    "id": "w32",
+    "text": "classwork",
+    "start": 7.84,
+    "end": 8.16
+  },
+  {
+    "id": "w33",
+    "text": "and",
+    "start": 8.24,
+    "end": 8.4
+  },
+  {
+    "id": "w34",
+    "text": "holds",
+    "start": 8.4,
+    "end": 8.72
+  },
+  {
+    "id": "w35",
+    "text": "all",
+    "start": 8.72,
+    "end": 8.88
+  },
+  {
+    "id": "w36",
+    "text": "my",
+    "start": 8.88,
+    "end": 8.96
+  },
+  {
+    "id": "w37",
+    "text": "syllabi.",
+    "start": 8.96,
+    "end": 9.68
+  },
+  {
+    "id": "w38",
+    "text": "It's",
+    "start": 9.68,
+    "end": 9.84
+  },
+  {
+    "id": "w39",
+    "text": "my",
+    "start": 9.84,
+    "end": 10
+  },
+  {
+    "id": "w40",
+    "text": "one",
+    "start": 10,
+    "end": 10.24
+  },
+  {
+    "id": "w41",
+    "text": "source",
+    "start": 10.24,
+    "end": 10.56
+  },
+  {
+    "id": "w42",
+    "text": "of",
+    "start": 10.56,
+    "end": 10.64
+  },
+  {
+    "id": "w43",
+    "text": "truth",
+    "start": 10.64,
+    "end": 11.04
+  },
+  {
+    "id": "w44",
+    "text": "for",
+    "start": 11.04,
+    "end": 11.2
+  },
+  {
+    "id": "w45",
+    "text": "everything",
+    "start": 11.2,
+    "end": 11.52
+  },
+  {
+    "id": "w46",
+    "text": "I",
+    "start": 11.52,
+    "end": 11.68
+  },
+  {
+    "id": "w47",
+    "text": "have",
+    "start": 11.68,
+    "end": 11.84
+  },
+  {
+    "id": "w48",
+    "text": "going",
+    "start": 11.84,
+    "end": 12
+  },
+  {
+    "id": "w49",
+    "text": "on.",
+    "start": 12,
+    "end": 12.32
+  },
+  {
+    "id": "w50",
+    "text": "Okay,",
+    "start": 12.32,
+    "end": 12.64
+  },
+  {
+    "id": "w51",
+    "text": "next",
+    "start": 12.64,
+    "end": 12.8
+  },
+  {
+    "id": "w52",
+    "text": "up",
+    "start": 12.8,
+    "end": 12.96
+  },
+  {
+    "id": "w53",
+    "text": "is",
+    "start": 12.96,
+    "end": 13.12
+  },
+  {
+    "id": "w54",
+    "text": "study",
+    "start": 13.12,
+    "end": 13.36
+  },
+  {
+    "id": "w55",
+    "text": "notebooks.",
+    "start": 13.36,
+    "end": 13.92
+  },
+  {
+    "id": "w56",
+    "text": "Absolute",
+    "start": 13.92,
+    "end": 14.32
+  },
+  {
+    "id": "w57",
+    "text": "lifesaver.",
+    "start": 14.32,
+    "end": 15.12
+  },
+  {
+    "id": "w58",
+    "text": "You",
+    "start": 15.12,
+    "end": 15.2
+  },
+  {
+    "id": "w59",
+    "text": "just",
+    "start": 15.2,
+    "end": 15.36
+  },
+  {
+    "id": "w60",
+    "text": "upload",
+    "start": 15.36,
+    "end": 15.68
+  },
+  {
+    "id": "w61",
+    "text": "your",
+    "start": 15.68,
+    "end": 15.76
+  },
+  {
+    "id": "w62",
+    "text": "slides",
+    "start": 15.76,
+    "end": 16.08
+  },
+  {
+    "id": "w63",
+    "text": "and",
+    "start": 16.08,
+    "end": 16.24
+  },
+  {
+    "id": "w64",
+    "text": "syllabi,",
+    "start": 16.24,
+    "end": 16.8
+  },
+  {
+    "id": "w65",
+    "text": "and",
+    "start": 16.8,
+    "end": 16.88
+  },
+  {
+    "id": "w66",
+    "text": "Gemini",
+    "start": 16.88,
+    "end": 17.36
+  },
+  {
+    "id": "w67",
+    "text": "makes",
+    "start": 17.52,
+    "end": 17.68
+  },
+  {
+    "id": "w68",
+    "text": "a",
+    "start": 17.68,
+    "end": 17.76
+  },
+  {
+    "id": "w69",
+    "text": "custom",
+    "start": 17.76,
+    "end": 18
+  },
+  {
+    "id": "w70",
+    "text": "quiz",
+    "start": 18,
+    "end": 18.4
+  },
+  {
+    "id": "w71",
+    "text": "to",
+    "start": 18.4,
+    "end": 18.56
+  },
+  {
+    "id": "w72",
+    "text": "test",
+    "start": 18.56,
+    "end": 18.72
+  },
+  {
+    "id": "w73",
+    "text": "your",
+    "start": 18.88,
+    "end": 19.04
+  },
+  {
+    "id": "w74",
+    "text": "memory.",
+    "start": 19.04,
+    "end": 19.52
+  },
+  {
+    "id": "w75",
+    "text": "Then",
+    "start": 19.52,
+    "end": 19.76
+  },
+  {
+    "id": "w76",
+    "text": "it",
+    "start": 19.76,
+    "end": 19.92
+  },
+  {
+    "id": "w77",
+    "text": "drops",
+    "start": 19.92,
+    "end": 20.24
+  },
+  {
+    "id": "w78",
+    "text": "12",
+    "start": 20.24,
+    "end": 20.56
+  },
+  {
+    "id": "w79",
+    "text": "lessons",
+    "start": 20.72,
+    "end": 21.04
+  },
+  {
+    "id": "w80",
+    "text": "to",
+    "start": 21.04,
+    "end": 21.12
+  },
+  {
+    "id": "w81",
+    "text": "make",
+    "start": 21.12,
+    "end": 21.28
+  },
+  {
+    "id": "w82",
+    "text": "sure",
+    "start": 21.28,
+    "end": 21.44
+  },
+  {
+    "id": "w83",
+    "text": "you're",
+    "start": 21.44,
+    "end": 21.6
+  },
+  {
+    "id": "w84",
+    "text": "actually",
+    "start": 21.6,
+    "end": 21.84
+  },
+  {
+    "id": "w85",
+    "text": "getting",
+    "start": 21.84,
+    "end": 22.08
+  },
+  {
+    "id": "w86",
+    "text": "it.",
+    "start": 22.08,
+    "end": 22.4
+  },
+  {
+    "id": "w87",
+    "text": "Now",
+    "start": 22.4,
+    "end": 22.56
+  },
+  {
+    "id": "w88",
+    "text": "let's",
+    "start": 22.64,
+    "end": 22.88
+  },
+  {
+    "id": "w89",
+    "text": "talk",
+    "start": 22.88,
+    "end": 23.12
+  },
+  {
+    "id": "w90",
+    "text": "about",
+    "start": 23.12,
+    "end": 23.28
+  },
+  {
+    "id": "w91",
+    "text": "interactive",
+    "start": 23.28,
+    "end": 24
+  },
+  {
+    "id": "w92",
+    "text": "visualizations.",
+    "start": 24,
+    "end": 24.88
+  },
+  {
+    "id": "w93",
+    "text": "If",
+    "start": 24.88,
+    "end": 25.04
+  },
+  {
+    "id": "w94",
+    "text": "you're",
+    "start": 25.04,
+    "end": 25.2
+  },
+  {
+    "id": "w95",
+    "text": "a",
+    "start": 25.2,
+    "end": 25.28
+  },
+  {
+    "id": "w96",
+    "text": "visual",
+    "start": 25.28,
+    "end": 25.52
+  },
+  {
+    "id": "w97",
+    "text": "learner",
+    "start": 25.6,
+    "end": 26
+  },
+  {
+    "id": "w98",
+    "text": "like",
+    "start": 26.08,
+    "end": 26.24
+  },
+  {
+    "id": "w99",
+    "text": "myself,",
+    "start": 26.24,
+    "end": 26.64
+  },
+  {
+    "id": "w100",
+    "text": "ask",
+    "start": 26.64,
+    "end": 26.96
+  },
+  {
+    "id": "w101",
+    "text": "Gemini",
+    "start": 26.96,
+    "end": 27.44
+  },
+  {
+    "id": "w102",
+    "text": "to",
+    "start": 27.52,
+    "end": 27.68
+  },
+  {
+    "id": "w103",
+    "text": "explain",
+    "start": 27.68,
+    "end": 27.92
+  },
+  {
+    "id": "w104",
+    "text": "something",
+    "start": 27.92,
+    "end": 28.24
+  },
+  {
+    "id": "w105",
+    "text": "complex",
+    "start": 28.24,
+    "end": 28.64
+  },
+  {
+    "id": "w106",
+    "text": "and",
+    "start": 28.72,
+    "end": 28.88
+  },
+  {
+    "id": "w107",
+    "text": "build",
+    "start": 28.88,
+    "end": 29.12
+  },
+  {
+    "id": "w108",
+    "text": "a",
+    "start": 29.12,
+    "end": 29.2
+  },
+  {
+    "id": "w109",
+    "text": "dynam",
+    "start": 29.2,
+    "end": 29.68
+  },
+  {
+    "id": "w110",
+    "text": "that",
+    "start": 30.16,
+    "end": 30.32
+  },
+  {
+    "id": "w111",
+    "text": "you",
+    "start": 30.32,
+    "end": 30.48
+  },
+  {
+    "id": "w112",
+    "text": "can",
+    "start": 30.48,
+    "end": 30.64
+  },
+  {
+    "id": "w113",
+    "text": "manipulate",
+    "start": 30.64,
+    "end": 31.12
+  },
+  {
+    "id": "w114",
+    "text": "and",
+    "start": 31.12,
+    "end": 31.28
+  },
+  {
+    "id": "w115",
+    "text": "double",
+    "start": 31.28,
+    "end": 31.52
+  },
+  {
+    "id": "w116",
+    "text": "click",
+    "start": 31.6,
+    "end": 31.92
+  },
+  {
+    "id": "w117",
+    "text": "into.",
+    "start": 31.92,
+    "end": 32.24
+  },
+  {
+    "id": "w118",
+    "text": "Last",
+    "start": 32.24,
+    "end": 32.48
+  },
+  {
+    "id": "w119",
+    "text": "but",
+    "start": 32.48,
+    "end": 32.64
+  },
+  {
+    "id": "w120",
+    "text": "not",
+    "start": 32.64,
+    "end": 32.8
+  },
+  {
+    "id": "w121",
+    "text": "least,",
+    "start": 32.8,
+    "end": 33.12
+  },
+  {
+    "id": "w122",
+    "text": "Gemini",
+    "start": 33.12,
+    "end": 33.68
+  },
+  {
+    "id": "w123",
+    "text": "Live.",
+    "start": 33.68,
+    "end": 34.08
+  },
+  {
+    "id": "w124",
+    "text": "I've",
+    "start": 34.08,
+    "end": 34.24
+  },
+  {
+    "id": "w125",
+    "text": "been",
+    "start": 34.24,
+    "end": 34.32
+  },
+  {
+    "id": "w126",
+    "text": "using",
+    "start": 34.32,
+    "end": 34.56
+  },
+  {
+    "id": "w127",
+    "text": "it",
+    "start": 34.56,
+    "end": 34.64
+  },
+  {
+    "id": "w128",
+    "text": "to",
+    "start": 34.64,
+    "end": 34.8
+  },
+  {
+    "id": "w129",
+    "text": "learn",
+    "start": 34.8,
+    "end": 34.96
+  },
+  {
+    "id": "w130",
+    "text": "a",
+    "start": 34.96,
+    "end": 35.04
+  },
+  {
+    "id": "w131",
+    "text": "new",
+    "start": 35.04,
+    "end": 35.28
+  },
+  {
+    "id": "w132",
+    "text": "language",
+    "start": 35.28,
+    "end": 35.6
+  },
+  {
+    "id": "w133",
+    "text": "and",
+    "start": 35.6,
+    "end": 35.76
+  },
+  {
+    "id": "w134",
+    "text": "get",
+    "start": 35.76,
+    "end": 35.92
+  },
+  {
+    "id": "w135",
+    "text": "my",
+    "start": 35.92,
+    "end": 36.08
+  },
+  {
+    "id": "w136",
+    "text": "conversational",
+    "start": 36.08,
+    "end": 36.8
+  },
+  {
+    "id": "w137",
+    "text": "confidence",
+    "start": 36.8,
+    "end": 37.28
+  },
+  {
+    "id": "w138",
+    "text": "up.",
+    "start": 37.28,
+    "end": 37.76
+  },
+  {
+    "id": "w139",
+    "text": "A",
+    "start": 38.24,
+    "end": 38.4
+  },
+  {
+    "id": "w140",
+    "text": "la",
+    "start": 38.56,
+    "end": 38.72
+  },
+  {
+    "id": "w141",
+    "text": "Gemini.",
+    "start": 38.8,
+    "end": 39.28
+  },
+  {
+    "id": "w142",
+    "text": "¿cómo",
+    "start": 39.4,
+    "end": 39.8
+  },
+  {
+    "id": "w143",
+    "text": "se",
+    "start": 39.8,
+    "end": 40.04
+  },
+  {
+    "id": "w144",
+    "text": "dice?",
+    "start": 40.04,
+    "end": 40.6
+  },
+  {
+    "id": "w145",
+    "text": "Let's",
+    "start": 40.6,
+    "end": 40.84
+  },
+  {
+    "id": "w146",
+    "text": "make",
+    "start": 40.84,
+    "end": 41
+  },
+  {
+    "id": "w147",
+    "text": "this",
+    "start": 41,
+    "end": 41.16
+  },
+  {
+    "id": "w148",
+    "text": "our",
+    "start": 41.16,
+    "end": 41.24
+  },
+  {
+    "id": "w149",
+    "text": "best",
+    "start": 41.32,
+    "end": 41.48
+  },
+  {
+    "id": "w150",
+    "text": "semester",
+    "start": 41.56,
+    "end": 41.88
+  },
+  {
+    "id": "w151",
+    "text": "yet.",
+    "start": 42.04,
+    "end": 42.76
+  },
+  {
+    "id": "w152",
+    "text": "And",
+    "start": 46.8,
+    "end": 46.96
+  },
+  {
+    "id": "w153",
+    "text": "you",
+    "start": 46.96,
+    "end": 47.04
+  },
+  {
+    "id": "w154",
+    "text": "can",
+    "start": 47.04,
+    "end": 47.2
+  },
+  {
+    "id": "w155",
+    "text": "do",
+    "start": 47.2,
+    "end": 47.36
+  },
+  {
+    "id": "w156",
+    "text": "all",
+    "start": 47.36,
+    "end": 47.6
+  },
+  {
+    "id": "w157",
+    "text": "this",
+    "start": 47.6,
+    "end": 47.76
+  },
+  {
+    "id": "w158",
+    "text": "with",
+    "start": 47.76,
+    "end": 47.92
+  },
+  {
+    "id": "w159",
+    "text": "a",
+    "start": 47.92,
+    "end": 48
+  },
+  {
+    "id": "w160",
+    "text": "Gemini",
+    "start": 48,
+    "end": 48.48
+  },
+  {
+    "id": "w161",
+    "text": "student",
+    "start": 48.64,
+    "end": 48.88
+  },
+  {
+    "id": "w162",
+    "text": "plan.",
+    "start": 48.88,
+    "end": 49.44
+  },
+  {
+    "id": "w163",
+    "text": "Plus",
+    "start": 49.44,
+    "end": 49.68
+  },
+  {
+    "id": "w164",
+    "text": "unlock",
+    "start": 49.76,
+    "end": 50.16
+  },
+  {
+    "id": "w165",
+    "text": "higher",
+    "start": 50.16,
+    "end": 50.48
+  },
+  {
+    "id": "w166",
+    "text": "usage",
+    "start": 50.48,
+    "end": 50.72
+  },
+  {
+    "id": "w167",
+    "text": "limits,",
+    "start": 50.88,
+    "end": 51.36
+  },
+  {
+    "id": "w168",
+    "text": "more",
+    "start": 51.36,
+    "end": 51.6
+  },
+  {
+    "id": "w169",
+    "text": "storage,",
+    "start": 51.6,
+    "end": 52
+  },
+  {
+    "id": "w170",
+    "text": "and",
+    "start": 52,
+    "end": 52.16
+  },
+  {
+    "id": "w171",
+    "text": "video",
+    "start": 52.16,
+    "end": 52.48
+  },
+  {
+    "id": "w172",
+    "text": "generation",
+    "start": 52.48,
+    "end": 52.88
+  },
+  {
+    "id": "w173",
+    "text": "with",
+    "start": 52.88,
+    "end": 52.96
+  },
+  {
+    "id": "w174",
+    "text": "Gemini",
+    "start": 53.12,
+    "end": 53.52
+  },
+  {
+    "id": "w175",
+    "text": "Omni.",
+    "start": 53.6,
+    "end": 54.16
+  },
+  {
+    "id": "w176",
+    "text": "Study",
+    "start": 54.16,
+    "end": 54.48
+  },
+  {
+    "id": "w177",
+    "text": "smarter,",
+    "start": 54.48,
+    "end": 54.96
+  },
+  {
+    "id": "w178",
+    "text": "guys.",
+    "start": 54.96,
+    "end": 55.2
+  }
+]

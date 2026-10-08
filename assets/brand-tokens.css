@@ -1,14 +1,16 @@
 :root {
-  /* TODO: fill in your brand colors */
-  --brand-bg: ;
-  --brand-surface: ;
-  --brand-surface-2: ;
-  --brand-border: ;
-  --brand-accent: ;
-  --brand-accent-glow: ;
-  --brand-warn: ;
-  --brand-text: ;
-  --brand-text-dim: ;
+  /* Red/salmon gradient + aura glow aesthetic */
+  --brand-bg: #140a0a;
+  --brand-surface: #241212;
+  --brand-surface-2: #331818;
+  --brand-border: #4a2222;
+  --brand-accent: #ff6b5b;
+  --brand-accent-2: #ff3d3d;
+  --brand-gradient: linear-gradient(135deg, var(--brand-accent-2), var(--brand-accent));
+  --brand-accent-glow: 0 0 40px rgba(255, 90, 70, 0.45);
+  --brand-warn: #ffb020;
+  --brand-text: #fff5f0;
+  --brand-text-dim: #d9b8b2;
 
   /* TODO: pick your typography */
   --font-mono: ui-monospace, Menlo, monospace;
