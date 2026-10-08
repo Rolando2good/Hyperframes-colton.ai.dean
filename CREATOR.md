@@ -1,56 +1,47 @@
-<!-- HYPERFRAMES_SETUP_INCOMPLETE -->
-<!-- ^ Leave this marker until /setup is complete. It tells Claude to greet a new user
-     and run onboarding before any video work. The setup skill removes it when finished. -->
-
-# Creator Profile — _(your name)_
+# Creator Profile — rolareal0
 
 Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
 
-> 🚧 **This file is a blank template.** Run `/setup` (or just tell Claude "help me get set up") and it will fill these sections in from a short interview. You can also edit it by hand any time.
-
 ## Identity
 
-- **Name on-screen**: _(your display name)_
-- **Instagram**: _(@handle or "—")_
-- **TikTok**: _(handle or "—")_
-- **YouTube**: _(handle or "—")_
-- **X / other**: _(handle or "—")_
+- **Name on-screen**: rolareal0
+- **Instagram**: @merendonresearcharchive
+- **TikTok**: @merendonresearcharchive
+- **YouTube**: @merendonresearcharchive
+- **X / other**: @merendonresearcharchive
 
 When putting handles on-screen (lower-thirds, outros, end-cards), use the platform-appropriate handle.
 
 ## Platform priority
 
-_(Which platform(s) matter most, and the default aspect ratio. Most short-form creators default to **9:16 vertical, 1080×1920**. Set during /setup.)_
+Reels-first (Instagram). Default aspect ratio: **9:16 vertical, 1080×1920**.
 
 ## Content niche
 
-_(What you make videos about — e.g. AI tools, fitness, cooking, finance, comedy. Set during /setup. When planning a new video, the assistant assumes this niche unless told otherwise.)_
+AI educational tool content — explaining AI tools/concepts in an educational, accessible way. When planning a new video, the assistant assumes this niche unless told otherwise.
 
 ## On-camera mix
 
-_(Do you appear on camera, go faceless, or both? Set during /setup.)_
+Both — face-cam and faceless, depending on the video.
 
 - **Face-cam** → use `/short-form-video` face-mode choreography (BOTTOM / FULLSCREEN modes).
 - **Faceless** → motion graphics + AI TTS narration (`npx hyperframes tts`) or screen-recordings.
 
 ## Workflow — division of labor
 
-_(Set during /setup. Two common modes:)_
-
-- **You record + pre-edit your own speaking video** → it's the source of truth; the assistant builds the visual layer on top and does NOT cut your audio, remove pauses, or change your pacing.
-- **You build from scratch with the assistant** → motion graphics, TTS narration, screen-recordings assembled together.
+**Build from scratch with the assistant** → motion graphics, TTS narration, screen-recordings assembled together.
 
 ## Brand identity
 
-_(Colors, fonts, logo. Often a blank slate at the start — `assets/brand-tokens.css` fills in over time. Set initial values during /setup.)_
+Red/salmon gradient with an accent glow ("aura") aesthetic — see `assets/brand-tokens.css` for the token values. Evolves further via `/feedback`.
 
 ## Inspiration creators
 
-_(Studied creators live in [`_reference/creator-library/`](_reference/creator-library/). Paste a TikTok / Instagram Reel / YouTube Short URL and run `/study-creator <url>` to add one. At build time, name a creator — "build this like @handle" — to apply their style fingerprint to the visual layer. /setup seeds your first few here.)_
+See [`_reference/creator-library/INDEX.md`](_reference/creator-library/INDEX.md) for the full list. Add new creators via `/study-creator <url>`.
 
 ## Posting cadence & length defaults
 
-- _Cadence_: _(TBD — set during /setup)_
+- _Cadence_: TBD — not yet set; update here once established
 - _Default length_: 15–45s short-form vertical is a common sweet spot. Adjust per video.
 - _Default fps_: 30 (matches TikTok + Instagram defaults).
 

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "w0",
+    "text": "Never",
+    "start": 0,
+    "end": 0.4
+  },
+  {
+    "id": "w1",
+    "text": "study",
+    "start": 0.4,
+    "end": 0.8
+  },
+  {
+    "id": "w2",
+    "text": "in",
+    "start": 0.8,
+    "end": 0.96
+  },
+  {
+    "id": "w3",
+    "text": "bed,",
+    "start": 0.96,
+    "end": 1.36
+  },
+  {
+    "id": "w4",
+    "text": "don't",
+    "start": 1.36,
+    "end": 1.6
+  },
+  {
+    "id": "w5",
+    "text": "listen",
+    "start": 1.6,
+    "end": 1.92
+  },
+  {
+    "id": "w6",
+    "text": "to",
+    "start": 1.92,
+    "end": 2
+  },
+  {
+    "id": "w7",
+    "text": "music,",
+    "start": 2,
+    "end": 2.4
+  },
+  {
+    "id": "w8",
+    "text": "only",
+    "start": 2.4,
+    "end": 2.48
+  },
+  {
+    "id": "w9",
+    "text": "white",
+    "start": 2.64,
+    "end": 3.04
+  },
+  {
+    "id": "w10",
+    "text": "noise,",
+    "start": 3.04,
+    "end": 3.52
+  },
+  {
+    "id": "w11",
+    "text": "record",
+    "start": 3.52,
+    "end": 3.84
+  },
+  {
+    "id": "w12",
+    "text": "all",
+    "start": 3.84,
+    "end": 4
+  },
+  {
+    "id": "w13",
+    "text": "the",
+    "start": 4,
+    "end": 4.08
+  },
+  {
+    "id": "w14",
+    "text": "lectures,",
+    "start": 4.08,
+    "end": 4.64
+  },
+  {
+    "id": "w15",
+    "text": "don't",
+    "start": 4.64,
+    "end": 4.8
+  },
+  {
+    "id": "w16",
+    "text": "study",
+    "start": 4.8,
+    "end": 5.28
+  },
+  {
+    "id": "w17",
+    "text": "tired,",
+    "start": 5.28,
+    "end": 5.76
+  },
+  {
+    "id": "w18",
+    "text": "take",
+    "start": 5.76,
+    "end": 5.92
+  },
+  {
+    "id": "w19",
+    "text": "a",
+    "start": 5.92,
+    "end": 6
+  },
+  {
+    "id": "w20",
+    "text": "nap",
+    "start": 6,
+    "end": 6.16
+  },
+  {
+    "id": "w21",
+    "text": "first,",
+    "start": 6.32,
+    "end": 6.72
+  },
+  {
+    "id": "w22",
+    "text": "drink",
+    "start": 6.72,
+    "end": 6.88
+  },
+  {
+    "id": "w23",
+    "text": "more",
+    "start": 7.04,
+    "end": 7.2
+  },
+  {
+    "id": "w24",
+    "text": "water,",
+    "start": 7.2,
+    "end": 7.6
+  },
+  {
+    "id": "w25",
+    "text": "less",
+    "start": 7.6,
+    "end": 7.84
+  },
+  {
+    "id": "w26",
+    "text": "energy",
+    "start": 7.84,
+    "end": 8.24
+  },
+  {
+    "id": "w27",
+    "text": "drinks,",
+    "start": 8.24,
+    "end": 8.64
+  },
+  {
+    "id": "w28",
+    "text": "don't",
+    "start": 8.64,
+    "end": 8.88
+  },
+  {
+    "id": "w29",
+    "text": "reread",
+    "start": 8.88,
+    "end": 9.36
+  },
+  {
+    "id": "w30",
+    "text": "notes,",
+    "start": 9.36,
+    "end": 9.68
+  },
+  {
+    "id": "w31",
+    "text": "use",
+    "start": 9.68,
+    "end": 9.84
+  },
+  {
+    "id": "w32",
+    "text": "Brilliant",
+    "start": 10,
+    "end": 10.56
+  },
+  {
+    "id": "w33",
+    "text": "for",
+    "start": 10.56,
+    "end": 10.64
+  },
+  {
+    "id": "w34",
+    "text": "active",
+    "start": 10.64,
+    "end": 10.96
+  },
+  {
+    "id": "w35",
+    "text": "recall,",
+    "start": 10.96,
+    "end": 11.36
+  },
+  {
+    "id": "w36",
+    "text": "and",
+    "start": 11.36,
+    "end": 11.52
+  },
+  {
+    "id": "w37",
+    "text": "never",
+    "start": 11.52,
+    "end": 11.76
+  },
+  {
+    "id": "w38",
+    "text": "miss",
+    "start": 11.76,
+    "end": 11.92
+  },
+  {
+    "id": "w39",
+    "text": "a",
+    "start": 11.92,
+    "end": 12
+  },
+  {
+    "id": "w40",
+    "text": "review",
+    "start": 12,
+    "end": 12.32
+  },
+  {
+    "id": "w41",
+    "text": "day.",
+    "start": 12.32,
+    "end": 12.72
+  }
+]
