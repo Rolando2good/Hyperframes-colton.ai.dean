@@ -238,8 +238,8 @@
           <div class="bpm mono"><b id="bpm">60</b><span>BPM</span></div>
         </div>
         <div class="sticker st-yellow" id="st-steady" style="left:540px;top:790px">STEADY HANDS</div>
-        <div class="sticker st-blue" id="st-zero" style="left:600px;top:1230px">ZERO ERRORS</div>
-        <div class="sticker st-red" id="st-lives" style="left:70px;top:1630px">LIVES ON THE LINE</div>
+        <div class="sticker st-blue" id="st-zero" style="left:640px;top:1640px;font-size:46px">ZERO ERRORS</div>
+        <div class="sticker st-red" id="st-lives" style="left:40px;top:1640px;font-size:46px">LIVES ON THE LINE</div>
       </div>
 
       <!-- ═════════ SCENE 4 · THE FOUNDATION (14.4 – 21.0) ═════════ -->
@@ -377,7 +377,7 @@
       // SHOT C — cleat swings into the ball
       gsap.set("#cleat", { opacity: 0 });
       tl.set("#cleat", { opacity: 1 }, 1.25);
-      tl.fromTo("#cleat", { x: -760, y: -260, rotation: -16, filter: "blur(10px)" }, { x: 0, y: 0, rotation: 0, filter: "blur(2px)", duration: 0.3, ease: "power3.in", immediateRender: false }, 1.25);
+      tl.fromTo("#cleat", { x: -420, y: -300, rotation: -22, filter: "blur(6px)" }, { x: 0, y: 0, rotation: 0, filter: "blur(1px)", duration: 0.3, ease: "power2.in", immediateRender: false }, 1.25);
       tl.to("#cleat", { x: 520, y: -420, rotation: -26, filter: "blur(12px)", duration: 0.07, ease: "power1.out" }, 1.55);
       tl.set("#cleat", { opacity: 0 }, 1.62);
       // IMPACT — 2 inverted frames, shake, flash

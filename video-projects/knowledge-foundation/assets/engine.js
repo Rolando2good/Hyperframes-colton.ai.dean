@@ -450,7 +450,9 @@ window.KF = (function () {
     if (t < 2.9) {
       // SHOT D — chase cam behind the flight, speed ramp
       const s = eio(seg(t, 1.62, 2.9));
-      const C = camera(lerp(0.2, 1.7, s), lerp(0.5, 1.3, s), lerp(11.6, 19.6, s), lerp(-0.02, 0.04, s), lerp(1100, 1450, s));
+      const fb = ballPos(ballU(t));
+      const cz = lerp(11.6, 19.6, s), cyy = 0.5 + (fb[1] - 0.11) * 0.55;
+      const C = camera(0.25 + fb[0] * 0.75, cyy, cz, Math.atan2(cyy - fb[1], fb[2] - cz) * 0.6, lerp(1100, 1450, s));
       drawStadium(ctx, C, t); finishPitch(ctx, C, t);
       trail(ctx, C, t);
       const bp = ballPos(ballU(t));
@@ -463,7 +465,7 @@ window.KF = (function () {
     // SHOT E/F — goal! then the ball rebounds into the lens
     const k = t - 2.9;
     const shake = Math.exp(-k * 4) * 0.06;
-    const C = camera(2.0 + Math.sin(t * 90) * shake, 1.35 + Math.cos(t * 77) * shake, 19.6 + Math.min(k, 0.6) * 0.5, 0.04, 1650 + Math.max(0, t - 3.5) * 700);
+    const C = camera(2.16 + Math.sin(t * 90) * shake, 1.55 + Math.cos(t * 77) * shake, 19.6 + Math.min(k, 0.6) * 0.5, Math.atan2(1.55 - 2.02, 26.3 - 19.6) * 0.6, 1650 + Math.max(0, t - 3.5) * 700);
     if (t > 3.5) blurred(ctx, Math.min(9, (t - 3.5) * 14), (o) => { drawStadium(o, C, t); finishPitch(o, C, t); });
     else { drawStadium(ctx, C, t); finishPitch(ctx, C, t); }
     if (t < 3.5) {
@@ -528,7 +530,8 @@ window.KF = (function () {
       if (zr + 3.7 < cz + 0.4) continue;
       const fog = clamp(1 - (zr - cz) / 75, 0.12, 1);
       // ceiling lights + floor reflections
-      const lq = quad(ctx, C, [[-0.8, 3.0, zr], [0.8, 3.0, zr], [0.8, 3.0, zr + 1.6], [-0.8, 3.0, zr + 1.6]], "rgba(214,228,255,.85)", fog);
+      const near = clamp((zr - cz - 4) / 8, 0, 1);
+      const lq = quad(ctx, C, [[-0.8, 3.0, zr], [0.8, 3.0, zr], [0.8, 3.0, zr + 1.6], [-0.8, 3.0, zr + 1.6]], "rgba(214,228,255,.85)", fog * near);
       if (lq) {
         ctx.globalCompositeOperation = "lighter";
         const m = C.p(0, 3.0, zr + 0.8), fr = C.p(0, 0, zr + 0.8);
@@ -694,10 +697,10 @@ window.KF = (function () {
     ctx.globalCompositeOperation = "source-over"; ctx.globalAlpha = 1;
     // soccer ball callback drops onto the foundation
     const k = t - 15.75;
-    if (k > -0.6) {
+    if (k > -0.3) {
       const kk = Math.max(0, k);
       let y;
-      if (k < 0) y = 1185 - 1400 * (k * k) / 0.36; // falling in
+      if (k < 0) y = 1185 - 1400 * (k * k) / 0.09; // falling in
       else y = 1185 - Math.abs(Math.sin(kk * 7)) * 120 * Math.exp(-kk * 4);
       drawBall(ctx, 230, Math.min(1185, y), 82, t, 0.8);
     }
