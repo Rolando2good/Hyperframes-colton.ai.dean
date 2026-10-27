@@ -1,0 +1,427 @@
+[
+ {
+  "word": "Students",
+  "start": 0.22,
+  "end": 1.026
+ },
+ {
+  "word": "do",
+  "start": 1.146,
+  "end": 1.376
+ },
+ {
+  "word": "you",
+  "start": 1.396,
+  "end": 1.625
+ },
+ {
+  "word": "ever",
+  "start": 1.645,
+  "end": 2.059
+ },
+ {
+  "word": "see",
+  "start": 2.079,
+  "end": 2.308
+ },
+ {
+  "word": "those",
+  "start": 2.328,
+  "end": 2.557
+ },
+ {
+  "word": "people",
+  "start": 2.577,
+  "end": 2.991
+ },
+ {
+  "word": "who",
+  "start": 3.011,
+  "end": 3.24
+ },
+ {
+  "word": "are",
+  "start": 3.26,
+  "end": 3.49
+ },
+ {
+  "word": "completely",
+  "start": 3.51,
+  "end": 4.293
+ },
+ {
+  "word": "overloaded",
+  "start": 4.313,
+  "end": 5.096
+ },
+ {
+  "word": "one",
+  "start": 5.116,
+  "end": 5.345
+ },
+ {
+  "word": "moment",
+  "start": 5.365,
+  "end": 5.779
+ },
+ {
+  "word": "and",
+  "start": 5.899,
+  "end": 6.098
+ },
+ {
+  "word": "had",
+  "start": 6.118,
+  "end": 6.317
+ },
+ {
+  "word": "the",
+  "start": 6.337,
+  "end": 6.536
+ },
+ {
+  "word": "academic",
+  "start": 6.556,
+  "end": 7.242
+ },
+ {
+  "word": "comeback",
+  "start": 7.262,
+  "end": 7.786
+ },
+ {
+  "word": "of",
+  "start": 7.806,
+  "end": 8.005
+ },
+ {
+  "word": "the",
+  "start": 8.025,
+  "end": 8.224
+ },
+ {
+  "word": "century",
+  "start": 8.244,
+  "end": 8.767
+ },
+ {
+  "word": "the",
+  "start": 8.787,
+  "end": 8.987
+ },
+ {
+  "word": "next?",
+  "start": 9.007,
+  "end": 9.206
+ },
+ {
+  "word": "Well",
+  "start": 9.676,
+  "end": 9.924
+ },
+ {
+  "word": "it's",
+  "start": 9.944,
+  "end": 10.192
+ },
+ {
+  "word": "not",
+  "start": 10.212,
+  "end": 10.461
+ },
+ {
+  "word": "from",
+  "start": 10.481,
+  "end": 10.729
+ },
+ {
+  "word": "rereading",
+  "start": 10.749,
+  "end": 11.395
+ },
+ {
+  "word": "your",
+  "start": 11.415,
+  "end": 11.663
+ },
+ {
+  "word": "notes",
+  "start": 11.683,
+  "end": 12.131
+ },
+ {
+  "word": "right",
+  "start": 12.151,
+  "end": 12.399
+ },
+ {
+  "word": "before",
+  "start": 12.419,
+  "end": 12.866
+ },
+ {
+  "word": "your",
+  "start": 12.886,
+  "end": 13.134
+ },
+ {
+  "word": "test",
+  "start": 13.154,
+  "end": 13.403
+ },
+ {
+  "word": "or",
+  "start": 13.503,
+  "end": 13.744
+ },
+ {
+  "word": "burning",
+  "start": 13.764,
+  "end": 14.2
+ },
+ {
+  "word": "themselves",
+  "start": 14.22,
+  "end": 14.849
+ },
+ {
+  "word": "out,",
+  "start": 14.869,
+  "end": 15.11
+ },
+ {
+  "word": "it's",
+  "start": 15.35,
+  "end": 15.604
+ },
+ {
+  "word": "actually",
+  "start": 15.624,
+  "end": 16.284
+ },
+ {
+  "word": "by",
+  "start": 16.304,
+  "end": 16.557
+ },
+ {
+  "word": "making",
+  "start": 16.577,
+  "end": 17.034
+ },
+ {
+  "word": "their",
+  "start": 17.054,
+  "end": 17.308
+ },
+ {
+  "word": "classes",
+  "start": 17.328,
+  "end": 17.785
+ },
+ {
+  "word": "manageable",
+  "start": 17.805,
+  "end": 18.667
+ },
+ {
+  "word": "taking",
+  "start": 18.807,
+  "end": 19.265
+ },
+ {
+  "word": "in",
+  "start": 19.285,
+  "end": 19.54
+ },
+ {
+  "word": "information",
+  "start": 19.56,
+  "end": 20.426
+ },
+ {
+  "word": "has",
+  "start": 20.446,
+  "end": 20.701
+ },
+ {
+  "word": "never",
+  "start": 20.721,
+  "end": 21.18
+ },
+ {
+  "word": "been",
+  "start": 21.2,
+  "end": 21.455
+ },
+ {
+  "word": "easier",
+  "start": 21.475,
+  "end": 21.933
+ },
+ {
+  "word": "because",
+  "start": 22.053,
+  "end": 22.469
+ },
+ {
+  "word": "you",
+  "start": 22.489,
+  "end": 22.719
+ },
+ {
+  "word": "can",
+  "start": 22.739,
+  "end": 22.969
+ },
+ {
+  "word": "select",
+  "start": 22.989,
+  "end": 23.404
+ },
+ {
+  "word": "what",
+  "start": 23.424,
+  "end": 23.654
+ },
+ {
+  "word": "format",
+  "start": 23.674,
+  "end": 24.089
+ },
+ {
+  "word": "you",
+  "start": 24.109,
+  "end": 24.339
+ },
+ {
+  "word": "learn",
+  "start": 24.359,
+  "end": 24.589
+ },
+ {
+  "word": "best",
+  "start": 24.609,
+  "end": 24.839
+ },
+ {
+  "word": "in",
+  "start": 24.859,
+  "end": 25.089
+ },
+ {
+  "word": "and",
+  "start": 25.329,
+  "end": 25.577
+ },
+ {
+  "word": "best",
+  "start": 25.597,
+  "end": 25.845
+ },
+ {
+  "word": "of",
+  "start": 25.865,
+  "end": 26.113
+ },
+ {
+  "word": "all",
+  "start": 26.133,
+  "end": 26.381
+ },
+ {
+  "word": "you",
+  "start": 26.401,
+  "end": 26.649
+ },
+ {
+  "word": "can",
+  "start": 26.669,
+  "end": 26.916
+ },
+ {
+  "word": "quiz",
+  "start": 26.936,
+  "end": 27.184
+ },
+ {
+  "word": "yourself,",
+  "start": 27.204,
+  "end": 27.651
+ },
+ {
+  "word": "accurately",
+  "start": 27.831,
+  "end": 28.695
+ },
+ {
+  "word": "on",
+  "start": 28.715,
+  "end": 28.918
+ },
+ {
+  "word": "what's",
+  "start": 28.938,
+  "end": 29.141
+ },
+ {
+  "word": "really",
+  "start": 29.161,
+  "end": 29.529
+ },
+ {
+  "word": "on",
+  "start": 29.549,
+  "end": 29.753
+ },
+ {
+  "word": "YOUR",
+  "start": 29.773,
+  "end": 29.976
+ },
+ {
+  "word": "exam.",
+  "start": 29.996,
+  "end": 30.364
+ },
+ {
+  "word": "Stop",
+  "start": 30.834,
+  "end": 31.134
+ },
+ {
+  "word": "rereading",
+  "start": 31.154,
+  "end": 31.928
+ },
+ {
+  "word": "start",
+  "start": 32.048,
+  "end": 32.31
+ },
+ {
+  "word": "doing",
+  "start": 32.33,
+  "end": 32.592
+ },
+ {
+  "word": "what",
+  "start": 32.612,
+  "end": 32.874
+ },
+ {
+  "word": "works",
+  "start": 32.894,
+  "end": 33.156
+ },
+ {
+  "word": "for",
+  "start": 33.176,
+  "end": 33.439
+ },
+ {
+  "word": "you!",
+  "start": 33.459,
+  "end": 33.721
+ }
+]

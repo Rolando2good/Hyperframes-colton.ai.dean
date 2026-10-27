@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<defs><filter id="diecut" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="10" result="grow"/>
+<feFlood flood-color="#FFFDF7"/><feComposite in2="grow" operator="in" result="border"/>
+<feMerge><feMergeNode in="border"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g filter="url(#diecut)"><path d="M243.7 28.7 L225.6 28.1 L108.1 212.7 L191.3 213.0 L149.1 370.4 L295.9 160.1 L213.6 160.1 L261.8 29.4Z" fill="#FFE45C" stroke="#1E1A17" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><path d="M95.1 108.5 L70.3 95.5" fill="none" stroke="#1E1A17" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M312.7 251.2 L340.3 261.7" fill="none" stroke="#1E1A17" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/></g></svg>

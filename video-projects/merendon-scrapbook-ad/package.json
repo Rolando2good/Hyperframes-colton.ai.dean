@@ -1,0 +1,29 @@
+{
+  "name": "merendon-scrapbook-ad",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Merendón 36s vertical scrapbook ad (Remotion)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "assets": "python3 scripts/make_textures.py && node scripts/make-stickers.mjs && python3 scripts/make_sfx.py",
+    "music": "node scripts/make-music.mjs",
+    "audio": "node scripts/prep-audio.mjs",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/bundler": "4.0.539",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.539",
+    "tone": "15.1.22"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
