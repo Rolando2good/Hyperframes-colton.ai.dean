@@ -6,6 +6,8 @@ import {BEAT, FPS, buildCues, snapToBeat, type Word} from './cues';
 import {hash} from './lib/rand';
 
 const F = (t: number) => Math.round(t * FPS);
+// Keep an event far enough before the next cut that it actually reads on screen.
+const before = (f: number, cut: number, margin = 10) => Math.min(f, cut - margin);
 
 export type SfxName =
   | 'paper_rip' | 'tape_stick' | 'tape_tear' | 'pencil_scribble' | 'marker_squeak' | 'stamp_thud'
@@ -33,7 +35,7 @@ export function buildPlan(words: Word[]) {
     payoff: F(c.scene.payoff),
     cta: F(c.scene.cta),
     hold: F(c.holdFrom),
-    end: F(36),
+    end: F(c.duration),
   };
 
   // ---------- 1. HOOK ----------
@@ -75,18 +77,19 @@ export function buildPlan(words: Word[]) {
   };
 
   // ---------- 3. TURN ----------
-  const sortStart = F(c.turn.manageable.start);
+  // cards start sorting the moment the scene lands (fast pace: no idle stack)
+  const sortStart = scene.turn + 4;
   const sel = c.turn.select.i;
   const turn = {
     at: scene.turn,
-    cardsAt: [0, 1, 2].map((i) => sortStart + i * 6),
+    cardsAt: [0, 1, 2].map((i) => Math.round(sortStart + (i * (F(c.turn.manageable.end) - sortStart)) / 2)),
     highlightersAt: F(c.turn.information.start),
     cardChecksAt: [0, 1, 2].map((k) => F(c.turn.never.start) + k * 6),
     lightningAt: F(c.turn.easier.start),
     tabsAt: scene.tabs,
     tabAt: [w(sel), w(sel + 1), w(sel + 2)].map((f, i) => Math.max(f, scene.tabs + 2 + i * 4)),
-    arrowAt: F(c.turn.learnBest.start),
-    heartAt: F(c.turn.learnBest.end),
+    arrowAt: before(F(c.turn.learnBest.start), scene.payoff, 22),
+    heartAt: before(F(c.turn.learnBest.end), scene.payoff, 10),
   };
 
   // ---------- 4. PAYOFF ----------
@@ -96,8 +99,8 @@ export function buildPlan(words: Word[]) {
     headerAt: scene.payoff + 8,
     checksAt: [0, 1, 2].map((k) => F(checkBeat + k * BEAT)),
     shadesAt: F(c.payoff.really.start),
-    starAt: F(c.payoff.exam.start) - 4,
-    aPlusAt: F(c.payoff.exam.start) + 2,
+    starAt: before(F(c.payoff.exam.start) - 4, scene.cta, 18),
+    aPlusAt: before(F(c.payoff.exam.start) + 2, scene.cta, 12),
   };
 
   // ---------- 5. CTA ----------
@@ -116,7 +119,7 @@ export function buildPlan(words: Word[]) {
   const shots: Shot[] = [
     {at: 0, scale: 2.1, cx: HOOK_WORD.x + 120, cy: HOOK_WORD.y + 10},
     // editor's step-out: tight -> medium on "see" -> wide before "overloaded"
-    {at: Math.min(F(snapToBeat(c.hook.see.start)), hook.wideAt - 12), scale: 1.45, cx: HOOK_WORD.x + 200, cy: HOOK_WORD.y + 220},
+    {at: Math.min(Math.max(F(snapToBeat(c.hook.see.start)), hook.circleAt + 12), hook.wideAt - 10), scale: 1.45, cx: HOOK_WORD.x + 200, cy: HOOK_WORD.y + 220},
     {at: hook.wideAt, scale: 1, cx: 540, cy: 960},
     {at: myth.labelAt, scale: 1.16, cx: MYTH_LABEL.x, cy: MYTH_LABEL.y + 40},
     {at: scene.turn, scale: 1, cx: 540, cy: 960},

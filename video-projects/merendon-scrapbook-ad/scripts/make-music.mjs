@@ -8,7 +8,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
-import {buildCues, BEAT, DURATION_S} from '../src/cues.ts';
+import {buildCues, BEAT} from '../src/cues.ts';
 import {normalizeTo, measureLufs} from './loudness.mjs';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -21,7 +21,9 @@ try {
 }
 
 const words = JSON.parse(fs.readFileSync(path.join(ROOT, 'public/vo/words.json'), 'utf8'));
-const cues = buildCues(words).music;
+const all = buildCues(words);
+const cues = all.music;
+const DURATION_S = all.duration;
 console.log('music cues', cues);
 
 const browser = await chromium.launch();

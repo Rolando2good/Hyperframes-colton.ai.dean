@@ -21,7 +21,7 @@ const ratio = (a, b) => {
 const P = {ink: '#1E1A17', paper: '#F4EBDD', kraft: '#C8A57A', salmon: '#E0654F', red: '#C8322B', magenta: '#D8407F', yellow: '#FFE45C'};
 const ok = (b) => (b ? 'PASS' : 'FLAG');
 
-console.log('\nFINAL CHECK — Merendón scrapbook ad');
+console.log(`\nFINAL CHECK — Merendón scrapbook ad (${c.duration.toFixed(2)}s)`);
 console.log('====================================');
 
 // 1. Attention
@@ -31,8 +31,9 @@ console.log(`1. Attention: frame 0 = hard cut on a tight shot, letter "s" typed 
 console.log(`2. Clear point (sound off): "the comeback." headline @${c.hook.comeback.start.toFixed(2)}s · "rereading ≠ learning" label @${c.myth.out.start.toFixed(2)}s held ${(c.scene.turn - c.myth.out.start).toFixed(2)}s with camera punch-in · "start doing what works for you." headline @${c.cta.startDoing.start.toFixed(2)}s held to the end. -> ${ok(c.scene.turn - c.myth.out.start >= 1.2)}`);
 
 // 3. Brand
-const logoOnScreen = 36 - c.cta.logo;
-console.log(`3. Brand: salmon card on screen from ${c.scene.cta.toFixed(2)}s (${(36 - c.scene.cta).toFixed(2)}s), logo taped @${c.cta.logo.toFixed(2)}s => ${logoOnScreen.toFixed(2)}s on screen; final frame held ${36 - c.holdFrom}s. -> ${ok(logoOnScreen >= 1.5)}`);
+const END = c.duration;
+const logoOnScreen = END - c.cta.logo;
+console.log(`3. Brand: salmon card on screen from ${c.scene.cta.toFixed(2)}s (${(END - c.scene.cta).toFixed(2)}s), logo taped @${c.cta.logo.toFixed(2)}s => ${logoOnScreen.toFixed(2)}s on screen; final frame held ${(END - c.holdFrom).toFixed(1)}s (runtime ${END.toFixed(2)}s). -> ${ok(logoOnScreen >= 1.5)}`);
 
 // 4. Human feel
 console.log('4. Human feel: all paper/sticker poses go through onTwos/stepPoses (15fps holds), no easing curves on paper; every piece has seeded ±4° rotation and ±6px placement/boil; tape is crooked; strokes vary 2–6px. Only the camera drift/punch and caption pop run at 30fps. Nothing is perfectly centered (jitter on every group). -> PASS');

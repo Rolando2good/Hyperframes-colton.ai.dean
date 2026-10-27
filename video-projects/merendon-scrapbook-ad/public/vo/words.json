@@ -1,427 +1,427 @@
 [
  {
   "word": "Students",
-  "start": 0.22,
-  "end": 1.026
+  "start": 0.12,
+  "end": 0.406
  },
  {
   "word": "do",
-  "start": 1.146,
-  "end": 1.376
+  "start": 0.426,
+  "end": 0.581
  },
  {
   "word": "you",
-  "start": 1.396,
-  "end": 1.625
+  "start": 0.601,
+  "end": 0.757
  },
  {
   "word": "ever",
-  "start": 1.645,
-  "end": 2.059
+  "start": 0.777,
+  "end": 1.063
  },
  {
   "word": "see",
-  "start": 2.079,
-  "end": 2.308
+  "start": 1.083,
+  "end": 1.238
  },
  {
   "word": "those",
-  "start": 2.328,
-  "end": 2.557
+  "start": 1.258,
+  "end": 1.414
  },
  {
   "word": "people",
-  "start": 2.577,
-  "end": 2.991
+  "start": 1.434,
+  "end": 1.719
  },
  {
   "word": "who",
-  "start": 3.011,
-  "end": 3.24
+  "start": 1.739,
+  "end": 1.895
  },
  {
   "word": "are",
-  "start": 3.26,
-  "end": 3.49
+  "start": 1.915,
+  "end": 2.281
  },
  {
   "word": "completely",
-  "start": 3.51,
-  "end": 4.293
+  "start": 2.301,
+  "end": 2.846
  },
  {
   "word": "overloaded",
-  "start": 4.313,
-  "end": 5.096
+  "start": 2.866,
+  "end": 3.412
  },
  {
   "word": "one",
-  "start": 5.116,
-  "end": 5.345
+  "start": 3.432,
+  "end": 3.588
  },
  {
   "word": "moment",
-  "start": 5.365,
-  "end": 5.779
+  "start": 3.608,
+  "end": 3.894
  },
  {
   "word": "and",
-  "start": 5.899,
-  "end": 6.098
+  "start": 3.914,
+  "end": 4.499
  },
  {
   "word": "had",
-  "start": 6.118,
-  "end": 6.317
+  "start": 4.519,
+  "end": 4.675
  },
  {
   "word": "the",
-  "start": 6.337,
-  "end": 6.536
+  "start": 4.695,
+  "end": 4.85
  },
  {
   "word": "academic",
-  "start": 6.556,
-  "end": 7.242
+  "start": 4.87,
+  "end": 5.496
  },
  {
   "word": "comeback",
-  "start": 7.262,
-  "end": 7.786
+  "start": 5.516,
+  "end": 5.932
  },
  {
   "word": "of",
-  "start": 7.806,
-  "end": 8.005
+  "start": 5.952,
+  "end": 6.107
  },
  {
   "word": "the",
-  "start": 8.025,
-  "end": 8.224
+  "start": 6.127,
+  "end": 6.283
  },
  {
   "word": "century",
-  "start": 8.244,
-  "end": 8.767
+  "start": 6.303,
+  "end": 6.719
  },
  {
   "word": "the",
-  "start": 8.787,
-  "end": 8.987
+  "start": 6.739,
+  "end": 6.894
  },
  {
   "word": "next?",
-  "start": 9.007,
-  "end": 9.206
+  "start": 6.914,
+  "end": 7.07
  },
  {
   "word": "Well",
-  "start": 9.676,
-  "end": 9.924
+  "start": 7.27,
+  "end": 7.442
  },
  {
   "word": "it's",
-  "start": 9.944,
-  "end": 10.192
+  "start": 7.462,
+  "end": 7.634
  },
  {
   "word": "not",
-  "start": 10.212,
-  "end": 10.461
+  "start": 7.654,
+  "end": 7.826
  },
  {
   "word": "from",
-  "start": 10.481,
-  "end": 10.729
+  "start": 7.846,
+  "end": 8.017
  },
  {
   "word": "rereading",
-  "start": 10.749,
-  "end": 11.395
+  "start": 8.037,
+  "end": 8.493
  },
  {
   "word": "your",
-  "start": 11.415,
-  "end": 11.663
+  "start": 8.513,
+  "end": 8.685
  },
  {
   "word": "notes",
-  "start": 11.683,
-  "end": 12.131
+  "start": 8.705,
+  "end": 9.129
  },
  {
   "word": "right",
-  "start": 12.151,
-  "end": 12.399
+  "start": 9.149,
+  "end": 9.321
  },
  {
   "word": "before",
-  "start": 12.419,
-  "end": 12.866
+  "start": 9.341,
+  "end": 9.655
  },
  {
   "word": "your",
-  "start": 12.886,
-  "end": 13.134
+  "start": 9.675,
+  "end": 9.847
  },
  {
   "word": "test",
-  "start": 13.154,
-  "end": 13.403
+  "start": 9.867,
+  "end": 10.039
  },
  {
   "word": "or",
-  "start": 13.503,
-  "end": 13.744
+  "start": 10.059,
+  "end": 10.521
  },
  {
   "word": "burning",
-  "start": 13.764,
-  "end": 14.2
+  "start": 10.541,
+  "end": 10.855
  },
  {
   "word": "themselves",
-  "start": 14.22,
-  "end": 14.849
+  "start": 10.875,
+  "end": 11.331
  },
  {
   "word": "out,",
-  "start": 14.869,
-  "end": 15.11
+  "start": 11.351,
+  "end": 11.522
  },
  {
   "word": "it's",
-  "start": 15.35,
-  "end": 15.604
+  "start": 11.542,
+  "end": 12.214
  },
  {
   "word": "actually",
-  "start": 15.624,
-  "end": 16.284
+  "start": 12.234,
+  "end": 12.69
  },
  {
   "word": "by",
-  "start": 16.304,
-  "end": 16.557
+  "start": 12.71,
+  "end": 12.882
  },
  {
   "word": "making",
-  "start": 16.577,
-  "end": 17.034
+  "start": 12.902,
+  "end": 13.216
  },
  {
   "word": "their",
-  "start": 17.054,
-  "end": 17.308
+  "start": 13.236,
+  "end": 13.408
  },
  {
   "word": "classes",
-  "start": 17.328,
-  "end": 17.785
+  "start": 13.428,
+  "end": 13.742
  },
  {
   "word": "manageable",
-  "start": 17.805,
-  "end": 18.667
+  "start": 13.762,
+  "end": 14.36
  },
  {
   "word": "taking",
-  "start": 18.807,
-  "end": 19.265
+  "start": 14.38,
+  "end": 14.694
  },
  {
   "word": "in",
-  "start": 19.285,
-  "end": 19.54
+  "start": 14.714,
+  "end": 14.886
  },
  {
   "word": "information",
-  "start": 19.56,
-  "end": 20.426
+  "start": 14.906,
+  "end": 15.834
  },
  {
   "word": "has",
-  "start": 20.446,
-  "end": 20.701
+  "start": 15.854,
+  "end": 16.026
  },
  {
   "word": "never",
-  "start": 20.721,
-  "end": 21.18
+  "start": 16.046,
+  "end": 16.36
  },
  {
   "word": "been",
-  "start": 21.2,
-  "end": 21.455
+  "start": 16.38,
+  "end": 16.552
  },
  {
   "word": "easier",
-  "start": 21.475,
-  "end": 21.933
+  "start": 16.572,
+  "end": 16.886
  },
  {
   "word": "because",
-  "start": 22.053,
-  "end": 22.469
+  "start": 16.906,
+  "end": 17.5
  },
  {
   "word": "you",
-  "start": 22.489,
-  "end": 22.719
+  "start": 17.52,
+  "end": 17.691
  },
  {
   "word": "can",
-  "start": 22.739,
-  "end": 22.969
+  "start": 17.711,
+  "end": 17.883
  },
  {
   "word": "select",
-  "start": 22.989,
-  "end": 23.404
+  "start": 17.903,
+  "end": 18.217
  },
  {
   "word": "what",
-  "start": 23.424,
-  "end": 23.654
+  "start": 18.237,
+  "end": 18.409
  },
  {
   "word": "format",
-  "start": 23.674,
-  "end": 24.089
+  "start": 18.429,
+  "end": 18.743
  },
  {
   "word": "you",
-  "start": 24.109,
-  "end": 24.339
+  "start": 18.763,
+  "end": 18.935
  },
  {
   "word": "learn",
-  "start": 24.359,
-  "end": 24.589
+  "start": 18.955,
+  "end": 19.127
  },
  {
   "word": "best",
-  "start": 24.609,
-  "end": 24.839
+  "start": 19.147,
+  "end": 19.318
  },
  {
   "word": "in",
-  "start": 24.859,
-  "end": 25.089
+  "start": 19.338,
+  "end": 19.51
  },
  {
   "word": "and",
-  "start": 25.329,
-  "end": 25.577
+  "start": 19.53,
+  "end": 19.702
  },
  {
   "word": "best",
-  "start": 25.597,
-  "end": 25.845
+  "start": 19.722,
+  "end": 19.894
  },
  {
   "word": "of",
-  "start": 25.865,
-  "end": 26.113
+  "start": 19.914,
+  "end": 20.086
  },
  {
   "word": "all",
-  "start": 26.133,
-  "end": 26.381
+  "start": 20.106,
+  "end": 20.278
  },
  {
   "word": "you",
-  "start": 26.401,
-  "end": 26.649
+  "start": 20.298,
+  "end": 20.47
  },
  {
   "word": "can",
-  "start": 26.669,
-  "end": 26.916
+  "start": 20.49,
+  "end": 20.661
  },
  {
   "word": "quiz",
-  "start": 26.936,
-  "end": 27.184
+  "start": 20.681,
+  "end": 20.853
  },
  {
   "word": "yourself,",
-  "start": 27.204,
-  "end": 27.651
+  "start": 20.873,
+  "end": 21.187
  },
  {
   "word": "accurately",
-  "start": 27.831,
-  "end": 28.695
+  "start": 21.207,
+  "end": 22.407
  },
  {
   "word": "on",
-  "start": 28.715,
-  "end": 28.918
+  "start": 22.427,
+  "end": 22.599
  },
  {
   "word": "what's",
-  "start": 28.938,
-  "end": 29.141
+  "start": 22.619,
+  "end": 22.791
  },
  {
   "word": "really",
-  "start": 29.161,
-  "end": 29.529
+  "start": 22.811,
+  "end": 23.125
  },
  {
   "word": "on",
-  "start": 29.549,
-  "end": 29.753
+  "start": 23.145,
+  "end": 23.317
  },
  {
   "word": "YOUR",
-  "start": 29.773,
-  "end": 29.976
+  "start": 23.337,
+  "end": 23.509
  },
  {
   "word": "exam.",
-  "start": 29.996,
-  "end": 30.364
+  "start": 23.529,
+  "end": 23.843
  },
  {
   "word": "Stop",
-  "start": 30.834,
-  "end": 31.134
+  "start": 24.043,
+  "end": 24.244
  },
  {
   "word": "rereading",
-  "start": 31.154,
-  "end": 31.928
+  "start": 24.264,
+  "end": 24.793
  },
  {
   "word": "start",
-  "start": 32.048,
-  "end": 32.31
+  "start": 24.813,
+  "end": 25.015
  },
  {
   "word": "doing",
-  "start": 32.33,
-  "end": 32.592
+  "start": 25.035,
+  "end": 25.236
  },
  {
   "word": "what",
-  "start": 32.612,
-  "end": 32.874
+  "start": 25.256,
+  "end": 25.458
  },
  {
   "word": "works",
-  "start": 32.894,
-  "end": 33.156
+  "start": 25.478,
+  "end": 25.679
  },
  {
   "word": "for",
-  "start": 33.176,
-  "end": 33.439
+  "start": 25.699,
+  "end": 25.9
  },
  {
   "word": "you!",
-  "start": 33.459,
-  "end": 33.721
+  "start": 25.92,
+  "end": 26.122
  }
 ]

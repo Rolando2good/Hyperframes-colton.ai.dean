@@ -1,12 +1,12 @@
 // Every beat in the ad is derived from public/vo/words.json — nothing is
-// hard-coded in seconds except the 36s runtime and the 84 BPM grid.
+// hard-coded in seconds except the 84 BPM grid; even the runtime follows the VO.
 // This file has no imports so Node (scripts/make-music.mjs) can load it too.
 
 export type Word = {word: string; start: number; end: number};
 
 export const FPS = 30;
-export const DURATION_S = 36;
-export const DURATION_FRAMES = DURATION_S * FPS;
+// After the last word: logo lands, then the final frame holds.
+export const OUTRO_S = 2.4;
 export const BPM = 84;
 export const BEAT = 60 / BPM; // 0.714s
 export const FINAL_HOLD_S = 1.5;
@@ -28,6 +28,9 @@ export function snapToBeat(t: number): number {
   const nearest = Math.round(t / BEAT) * BEAT;
   return nearest > t + 0.15 ? Math.floor(t / BEAT) * BEAT : nearest;
 }
+
+// Runtime = end of the VO + outro, rounded up to a whole frame.
+export const durationFor = (words: Word[]) => Math.ceil((words[words.length - 1].end + OUTRO_S) * FPS) / FPS;
 
 export type Cues = ReturnType<typeof buildCues>;
 
@@ -72,7 +75,8 @@ export function buildCues(words: Word[]) {
   const startDoing = at('start doing what works for you');
   const last = words[words.length - 1];
 
-  const holdFrom = DURATION_S - FINAL_HOLD_S;
+  const duration = durationFor(words);
+  const holdFrom = duration - FINAL_HOLD_S;
   const scene = {
     hook: 0,
     myth: snapToBeat(well.start),
@@ -89,6 +93,7 @@ export function buildCues(words: Word[]) {
 
   return {
     words,
+    duration,
     holdFrom,
     scene,
     hook: {students, see, overloaded, moment, comeback, century, next},

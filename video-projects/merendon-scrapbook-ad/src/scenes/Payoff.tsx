@@ -16,7 +16,7 @@ export const Payoff: React.FC<{plan: Plan}> = ({plan}) => {
   const frame = useCurrentFrame();
   const p = plan.payoff;
   // slides in from the right, on twos
-  const slide = stepPoses(frame, p.at, [{dx: 760}, {dx: 330}, {dx: 60}, {dx: -10}, {dx: 0}]);
+  const slide = stepPoses(frame, p.at, [{dx: 520}, {dx: 200}, {dx: 30}, {dx: -8}, {dx: 0}]);
   return (
     <>
       <Group seed="quiz" dx={slide?.dx ?? 0}>
